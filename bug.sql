@@ -1,0 +1,1 @@
+SELECT * FROM employees WHERE department = 'Sales' AND salary > 100000; -- This query might cause issues if the 'department' column contains NULL values, leading to unexpected results.  The use of NULL in comparisons can be tricky. It's always important to consider how your application handles NULL values. 
