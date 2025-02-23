@@ -1,0 +1,1 @@
+This example demonstrates a common error in SQL queries:  handling NULL values in WHERE clauses.  The initial query may not return the expected results due to the presence of NULL values in the 'department' column. The solution shows ways to correctly handle NULLs in this scenario. 
